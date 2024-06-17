@@ -9,7 +9,7 @@
 | **Noise** | 5.71%  | 2.29%  | 4.00%  | 10.86% | 72.57% | 4.57%  |
 | **Sep**   | 86.15% | 3.08%  | 4.62%  | 1.54%  | 4.62%  | 0.00%  |
 
-**Emission probability matrix Q**
+**Emission probability matrix Q^T**
 
 | Candidate     | True  | Nb     | Nb2   | Nb3    | Noise | Sep     |
 | ------------- | ----- | ------ | ----- | ------ | ----- | ------- |
