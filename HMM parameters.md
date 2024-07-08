@@ -1,4 +1,4 @@
-**Transition probability matrix P**
+**Transition probability matrix A**
 
 |           | True   | Nb     | Nb2    | Nb3    | Noise  | Sep    |
 | --------- | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -9,7 +9,7 @@
 | **Noise** | 5.71%  | 2.29%  | 4.00%  | 10.86% | 72.57% | 4.57%  |
 | **Sep**   | 86.15% | 3.08%  | 4.62%  | 1.54%  | 4.62%  | 0.00%  |
 
-Emission probability matrix $Q^T$, because the number of rows equals to the total number of fault candiates, we transpose the emission probability matrix Q so it is easier to be seen. An entry in the emission matrix refers to the likelihood of observing a particular evidence (a fault candidate) given that the system is currently in one of the six states. An empty entry means the corresponding probability is 0.  
+Emission probability matrix $B^T$, because the number of rows equals to the total number of fault candiates, we transpose the emission probability matrix B so it is easier to be seen. An entry in the emission matrix refers to the likelihood of observing a particular evidence (a fault candidate) given that the system is currently in one of the six states. An empty entry means the corresponding probability is 0.  
 
 | Candidate     | True  | Nb     | Nb2   | Nb3    | Noise | Sep     |
 | ------------- | ----- | ------ | ----- | ------ | ----- | ------- |
